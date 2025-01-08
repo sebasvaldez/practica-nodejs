@@ -1,0 +1,2 @@
+Nuevo deploy para corregir este error (se cambió la version de node en vercel de 22 a 20):
+FUNCTION_INVOCATION_TIMEOUT
