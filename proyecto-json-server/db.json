@@ -1,0 +1,83 @@
+{
+  "profesores": [
+    {
+      "nombre": "Sergie",
+      "apellido": "Code",
+      "materias": [
+        {
+          "nombre": "NodeJS desde cero"
+        },
+        {
+          "nombre": "ReactJS desde cero"
+        },
+        {
+          "nombre": "Angular desde cero"
+        }
+      ],
+      "id": "d910"
+    },
+    {
+      "id": "9f71",
+      "nombre": "Sebas",
+      "apellido": "Valdez",
+      "materias": [
+        {
+          "nombre": "Matemática"
+        },
+        {
+          "nombre": "Fisica"
+        },
+        {
+          "nombre": "Programación"
+        }
+      ]
+    },
+    {
+      "id": "15c4",
+      "nombre": "Martín Adolfo",
+      "apellido": "Valdez",
+      "materias": [
+        {
+          "nombre": "Administracion de Empresas"
+        },
+        {
+          "nombre": "Contabilidad"
+        }
+      ]
+    }
+  ],
+  "alumnos": [
+    {
+      "nombre": "Juan",
+      "apellido": "Perez",
+      "promedio": 8.5,
+      "id": "eaa5"
+    },
+    {
+      "nombre": "Alfonsina",
+      "apellido": "Storni",
+      "promedio": 10,
+      "id": "81c7"
+    }
+  ],
+  "cursos": [
+    {
+      "nombre": "NodeJS desde cero",
+      "duracion": 8,
+      "dificultad": "Intermedia",
+      "id": "dc04"
+    },
+    {
+      "nombre": "ReactJS desde cero",
+      "duracion": 9,
+      "dificultad": "Intermedia",
+      "id": "d713"
+    },
+    {
+      "nombre": "Angular desde cero",
+      "duracion": 10,
+      "dificultad": "Alta",
+      "id": "3c98"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+Códigos HTTP
+
+Son un conjunto de códigos de estado estándar que se utiliza para comunicar el resultado de una solicitud realizada por un cliente servidor web.
+Estos códigos son números de tres dígitos que proporcionan información sobre el estado de la solicitud realizada y se dividen en cinco categorías principales:
+
+
+1xx
+Respuestas afirmativas: indican que la solicitud fue recibida y esta siendo procesada
+
+2xx
+Respuestas exitosas: indican que la solicitud fue recibida y aceptada exitosamente.
+
+3xx
+Redirección: Indican que el cliente necesita realizara una acción  inicial  ara completar la  solicitud.
+
+4xx
+Error del cliente: Indican que hay un error en la solicitud realizada por el cliente, como una URL incorrecta o falta de permisos.
+
+5xx
+Error de servidor: Indican que hay un erro en el servidor al intentar procesar la solicitud del cliente.
+
+Los mas usados:
+200: ok
+201: Created => Creado con éxito
+204: No Content => Cuando hacemos una petición y no hay contenido que mostrar
+301: Permanent redirect => Cuando el recurso que buscamos fue movido permanentemente a otro lugar
+302: Found => Redirección temporal para encontrar el recurso
+304: Not modified => Cuando el navegador tiene en cache la información necesaria y no hace falta volver a realizar la solicitud
+400: Bad Request => Información fallida en el body o url al realizar la petición
+401: Unauthorized => No tenemos los permisos para consumir la información solicitada
+403: Forbiden => Es cuando tenemos el acceso a ciertas consultas pero no a toda la info y solicitamos algo que no está permitido.
+404: Not Found => No se encontró lo que estamos buscando con la solicitud
+500: Internal Server Error => Cuando la base de datos no esta disponible
+503: Service Unavailable => Cuando el servicio no esta disponible temporalmente
+
+

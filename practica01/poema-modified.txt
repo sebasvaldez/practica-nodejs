@@ -1,0 +1,21 @@
+NodeJS, el latir del backend
+
+En el mundo del código, un brillo aparece,
+NodeJS, el motor que nunca se detiene.
+Con JavaScript danza, ágil y veloz,
+sirviendo al backend con firmeza y voz.
+
+Sus hilos no duermen, manejan con destreza,
+eventos que fluyen con gran ligereza.
+Del servidor al cliente, un puente construyó,
+en tiempo real, el futuro llegó.
+
+Oh, NodeJS, con NPM a tu lado,
+un ecosistema vasto has cultivado.
+De Express a Socket, y mucho más,
+tu fuerza impulsa cada idea fugaz.
+
+Eres sincrónico, pero no convencional,
+en el corazón del desarrollo mundial.
+NodeJS, en tu ritmo confío,
+código que vive, nunca está vacío.

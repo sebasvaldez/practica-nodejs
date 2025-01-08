@@ -1,0 +1,18 @@
+{
+  "name": "node-crud",
+  "version": "1.0.0",
+  "description": "Crud con node js y mongoDB",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node --watch src/app.js",
+    "start": "src/app.js"
+  },
+  "author": "Sebas Valdez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.3"
+  }
+}

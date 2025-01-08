@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-node",
+  "version": "1.0.0",
+  "description": "Proyecto node del curso de SergieCode",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch src/index.js",
+    "start": "node --watch src/index.js",
+    "console": "echo 'Hola mundo desde scripts'"
+  },
+  "author": "SebasValdez",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "env-var": "^7.5.0"
+  }
+}
