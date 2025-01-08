@@ -11,10 +11,19 @@ const bookRoutes = require("./routes/book.routes");
 const app = express();
 
 app.use(bodyParser.json());
-
 //Conectamos la base de datos
-mongoose.connect(process.env.MONGO_URL, { dbName: process.env.MONGO_DB_NAME });
+// mongoose.connect(process.env.MONGO_URL, { dbName: process.env.MONGO_DB_NAME });
+// const db = mongoose.connection;
+
+mongoose.connect(process.env.MONGO_URL, {
+  dbName: process.env.MONGO_DB_NAME,
+});
 const db = mongoose.connection;
+
+db.on("error", console.error.bind(console, "connection error:"));
+db.once("open", function () {
+  console.log("Connected to the database");
+});
 
 app.use("/books", bookRoutes);
 
